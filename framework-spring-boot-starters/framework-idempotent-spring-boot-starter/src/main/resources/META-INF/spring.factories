@@ -1,0 +1,1 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=org.opengoofy.assault.framework.starter.idempotent.config.IdempotentAutoConfiguration
