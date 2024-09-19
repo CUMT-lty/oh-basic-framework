@@ -43,7 +43,7 @@ public final class IdempotentExecuteHandlerFactory {
                 }
                 break;
             case MQ:
-                result = ApplicationContextHolder.getBean(IdempotentSpELByMQExecuteHandler.class);
+                result = ApplicationContextHolder.getBean(IdempotentSpELByMQExecuteHandler.class); // 消息队列幂等处理器
                 break;
             default:
                 break;
